@@ -1,0 +1,42 @@
+.banner {
+    background-color: #000000;
+    padding: 40px 0;
+    text-align: center;
+    color: white;
+}
+
+.fondo{
+    background-image: url(../img/tilib1.jpeg);
+    background-position: center;
+    background-size: auto;
+}
+
+.carousel-inner img {
+    max-height: 400px;
+    width: auto;
+    margin: 0 auto;
+    border: 10px solid black;
+}
+
+.btn-descarga {
+    background-color: #000000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 15px 2px;
+    cursor: pointer;
+}
+.carousel {
+    max-height: 400px;
+    overflow: hidden;
+}
+.carousel-item {
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
